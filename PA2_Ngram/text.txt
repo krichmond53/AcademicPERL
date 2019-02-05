@@ -1,0 +1,16 @@
+************************************************************************************
+
+Programming Assignment 2 (19 February 2018)
+
+Design and implement a Perl program called ngram.pl that will learn an N-gram language model from an arbitrary number of plain text files. Your program should generate a given number of sentences based on that N-gram model. See the discussion on pages 92-94 of JM for further details.
+
+Your program should work for any value of n, and should output m sentences. Before learning the N-gram model, convert all text to lower case, and make sure to include punctuation in the n-gram models. Separate punctuation from words before learning the N-gram model. Your program should learn a single n-gram model from any number of input files.
+
+As a benchmark for performance, your program should be able to generate results for a trigram model (n=3) based on 1,000,000 words (tokens) of text in under five minute.
+
+Your program should run as follows:
+
+ngram.pl n m input-file/s
+
+n and m should be integer values, and input-file/s should be a list of one or more file names that contain the text you are building your ngram model from. For example you could run your program like this :
+

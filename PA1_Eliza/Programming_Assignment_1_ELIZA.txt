@@ -1,0 +1,55 @@
+Programming Assignment 1
+
+Programming Assignment 1 - Submit via Blackboard Monday 5 February 2018
+
+Objectives
+
+To gain experience with the Perl programming language, in particular the use of regular expressions in order to do "word spotting" and transform sentences from answers into questions. To gain an appreciation for the difficulties of natural language processing in general.
+
+Grading
+
+Important: please review the grading rubrics in the Course Documents and attached to this assignment.
+
+Specification
+
+Write an Eliza program in Perl. The program should be called eliza.pl, and it should run from the command line with no arguments.
+
+Your program should engage in a dialogue with the user, with your program Eliza playing the role of a psychotherapist. Your program should be able carry out "word spotting", that is it should recognize certain key words and respond simply based on that word being present in the input. It should also be able to transform certain simple sentence forms from statements (from the user) into questions (that Eliza will ask). Also, try to personalize the dialogue by asking and using the user's name.
+
+Here's the start of an example dialogue...
+
+eliza.pl
+
+-> [eliza] Hi, I'm a psychotherapist. What is your name?
+
+=> [user] My name is Bridget.
+
+-> [eliza] Hi Bridget. How can I help you today?
+
+=> [Bridget] I want to rule the world.
+
+-> [eliza] Bridget, why do you want to rule the world? [transform statement into ?]
+
+=> [Bridget] I don't know, I think I crave power.
+
+-> [eliza] Why don't you tell me more about your cravings. [word spot "crave" and respond.]
+
+=> [Bridget] ...
+
+Your program should be robust. If the user inputs gibberish or a very complicated question, Eliza should respond in some plausible way (I didn't quite understand, can you say that another way, etc.)
+
+This program should rely heavily on the use of regular expressions, so please make sure to review some introductory material in Learning Perl, Programming Perl, or some other source before attempting this program.
+
+Eliza examples:
+
+    start emacs and run "M-x doctor"
+    eliza on the web
+    another eliza on the web
+
+ 
+
+Policies (see syllabus for more details)
+
+Please comment your code. In particular, explain what words you are spotting for (and why) and what statement forms you are converting into questions (and why). Also make sure you name, class, etc. is clearly included in the comments.
+
+It is fine to use a Perl reference book for examples of loops, variables, etc., but your Eliza specific code must be your own, and not taken from any other source (human, published, on the web, etc.)

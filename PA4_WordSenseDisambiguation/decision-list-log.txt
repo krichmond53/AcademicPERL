@@ -1,0 +1,87 @@
+Script started on Fri 23 Mar 2018 03:52:29 PM EDT
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mper[K[K[K./decision-list.pl line--[Ktrain.txt line-test.txt my-decision -list.txt > my-line-answers.txt
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mhead -50 my-decision-list.txt
+Sense 1, Sense 2, Total Words, P(sense1), P(sense2), Log-Likelihood, SENSE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+0, 1, 1, 0.333333333333333, 0.666666666666667, 0.693147180559945, product
+1, 0, 1, 0.666666666666667, 0.333333333333333, 0.693147180559945, PHONE
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mhead - [K10 my-line-answer.txt
+head: cannot open 'my-line-answer.txt' for reading: No such file or directory
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mhead -10 my-line-answer.txts.txt
+<answer instance="line-n.w8_059:8174:" senseid="phone"/>
+<answer instance="line-n.w7_098:12684:" senseid="phone"/>
+<answer instance="line-n.w8_106:13309:" senseid="phone"/>
+<answer instance="line-n.w9_40:10187:" senseid="phone"/>
+<answer instance="line-n.w9_16:217:" senseid="phone"/>
+<answer instance="line-n.w8_119:16927:" senseid="product"/>
+<answer instance="line-n.w8_008:13756:" senseid="phone"/>
+<answer instance="line-n.w8_041:15186:" senseid="product"/>
+<answer instance="line-n.art7} aphb 05601797:" senseid="phone"/>
+<answer instance="line-n.w8_119:2964:" senseid="product"/>
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mscorer.pl my-line-answers.txt line-key.txt 
+scorer.pl: command not found
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mscorer.pl my-line-answers.txt line-key.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@.[1@/
+        Phone Product Total % Correct        
+Phone   67     5      72     93.0555555555556
+Product  0    54      54    100              
+
+% ERROR        Phone              Product          
+Phone   0.0694444444444444 0.138888888888889
+Product 0                  0                
+
+Total correctly tagged senses: 121
+Total number of tagged senses: 126
+Total accuracy: 0.96031746031746
+Out of 126 tags, the most frequence sense (phone) is tagged 72 times.
+Therefore, the MFS baseline 0.571428571428571
+Total accuracy increase is 0.388888888888889
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mexit
+exit
+
+Script done on Fri 23 Mar 2018 03:53:56 PM EDT

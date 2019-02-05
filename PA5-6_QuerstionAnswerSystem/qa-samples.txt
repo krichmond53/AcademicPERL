@@ -1,0 +1,143 @@
+Script started on Sat 14 Apr 2018 04:54:30 PM EDT
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mvi qa-system.pl n[C[C[C[Ccp decision-list.pl qa-systen.pl
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvi qa-systen.pl cp decision-list.pl qa-systen.pl
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd PERL\ Projects/ls[Kcp decision-list.pl qa-systen.pl
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvi qa-systen.pl m[C[C[C[C[Kvi qa-system.pl [Kvi qa-system.pl n[C[C[C[Ccp decision-list.pl qa-systen.pl
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd PERL\ Projects/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./qa-system.pl 
+This is a QA system by Kevin Richmond. It attempts to answer your questions whichs starts with Who, What, When or Where. "EXIT" will end the program.
+
+>>>>>>>>> 5 correct WHO questions <<<<<<<<<
+Q? ==>  Who is Bob Dylan?
+
+A. ==>  Bob Dylan is an American singer-songwriter, author, and painter who has been an influential figure in popular music and culture for more than five decades.
+
+Q? ==>  Who is Ralph Stanley?
+
+A. ==>  Ralph Stanley was an American bluegrass artist, known for his distinctive singing and banjo playing.
+
+Q? ==>  Who is Jet Li?
+
+A. ==>  Jet Li is a Chinese film actor, film producer, martial artist, and retired Wushu champion who was born in Beijing.
+
+Q? ==>  Who is George Washington?
+
+A. ==>  George Washington was an American statesman and soldier who served as the first President of the United States from 1789 to 1797 and was one of the Founding Fathers of the United States.
+
+Q? ==>  Who is RZA?
+
+A. ==>  RZA, is an American rapper, record producer, musician, actor, filmmaker and author.
+
+>>>>>>>>> 5 correct WHAT questions <<<<<<<<<
+Q? ==>  What isa    a juggalo?
+
+A. ==>  A juggalo is a fan of the group Insane Clown Posse or any other Psychopathic Records hip hop group.
+
+Q? ==>  What is a door?
+
+A. ==>  A door is a moving mechanism used to block off and allow access to, an entrance to or within an enclosed space, such as a building, room or vehicle.
+
+Q? ==>  What is a fun  inger?
+
+A. ==>  A finger is a limb of the human body and a type of digit, an organ of and found in the hands of humans and other primates.
+
+Q? ==>  What is a candle?
+
+A. ==>  A candle is an ignitable wick embedded in wax or another flammable solid substance such as tallow that provides light, and in some cases, a fragrance.
+
+Q? ==>  What is a highway?
+
+A. ==>  A highway is any public or private road or other public way on land.
+
+Q? ==>  What is a bag?
+
+A. ==>  A bag is a common tool in the form of a non-rigid container.
+
+>>>>>>>>> 5 correct WHERE questions <<<<<<<<<
+Q? ==>  Where is Canada?
+
+A. ==>  Canada is a country located in the northern part of North America.
+
+Q? ==>  Where is Egypty ?
+
+A. ==>  Egypt, officially the 'Arab Republic of Egypt', is a transcontinental country spanning the northeast corner of Africa and southwest corner of Asia by a land bridge formed by the Sinai Peninsula.
+
+Q? ==>  Where is Israel?
+
+A. ==>  Israel, officially the 'State of Israel', is a country in the Middle East, on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea.
+
+Q? ==>  Where is Cuba?
+
+A. ==>  Cuba is located in the northern Caribbean where the Caribbean Sea, the Gulf of Mexico, and the Atlantic Ocean meet.
+
+Q? ==>  Where is Perm?
+
+A. ==>  Perm Krai, Russia, located on the banks of the Kama River in the European part of Russia near the Ural Mountains.
+
+>>>>>>>>> 5 correct WHEN questions <<<<<<<<<
+Q? ==>  When was the Boston Tea Party?
+
+A. ==>  The Boston Tea Party was a political protest by the Sons of Liberty in Boston, Massachusetts, on December 16, 1773.
+
+Q? ==>  When was the Second World War?
+
+A. ==>  The Second World War was a global war that lasted from 1939 to 1945, although related conflicts began earlier.
+
+Q? ==>  When was the American Revolution?
+
+A. ==>  The American Revolution was a colonial revolt that took place between 1765 and 1783.
+
+Q? ==>  When was the Protestant Reformation?
+
+A. ==>  The Protestant Reformation was a schism in Western Christianity initiated by Martin Luther and continued by John Calvin, Huldrych Zwingli, and other Protestant Reformers in 16th-century Europe.
+
+Q? ==>  When was the Bolshevik Revoltui   ution?
+
+A. ==>  The Bolshevik Revolution or 'Bolshevik Coup' was a revolution in Russia led by the Bolsheviks and Vladimir Lenin that was instrumental in the larger Russian Revolution of 1917.
+
+>>>>>>>>> 10 INCORRECTLY answered questions <<<<<<<<<
+Q? ==>  Where is Antarctica?
+
+A. ==>  Antarctica is noted as the last region on Earth in recorded history to be discovered, unseen until 1820 when the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev on [[Vostok|Vostok]] and [[Mirny (sloop-of-war)|Mirny]] sighted the Fimbul ice shelf.
+
+Q? ==>  Who is Tom Petty?
+
+A. ==>  Tom Petty and the Heartbreakers * Traveling Wilburys * Stevie Nicks * Jeff Lynne }} | website = }} }}  'Thomas Earl Petty' was an American singer- songwriter, multi-instrumentalist, record producer, and actor.
+
+Q? ==>  What is a dog?
+
+A. ==>  A dog genus = Canis species = lupus | species_link = Gray wolf subspecies = familiaris<ref name=wozencraft2005/> | authority = Linnaeus, 1758 synonyms = Canis familiaris <small>Linnaeus, | 1758<ref name=linnaeus1758/><ref name=iczn1926/><small> }}   The 'domestic dog'<ref name=wang2008/> is a member of the genus [[Canis]] (canines), which forms part of the wolf-like canids,<ref name=lindblad2005/> and is the most widely abundant terrestrial carnivore.
+
+Q? ==>  Where is Floria da?
+Wide character in print at ./qa-system.pl line 98, <STDIN> line 25.
+
+A. ==>  Florida Territory |AdmittanceDate = March 3, 1845   |AdmittanceOrder = 27th |Governor = Rick Scott |Lieutenant Governor =   Carlos López-Cantera (R) |Legislature = Florida Legislature |Upperhouse =   Senate |Lowerhouse = House of Representatives |Senators = Bill Nelson (D)<br   />Marco Rubio (R) |Representative = 16 Republicans, 11 Democrats |TimeZone =   EST: UTC −5/−4 |TZ1Where = Peninsula and "Big Bend" region |TimeZone2 = CST:   UTC −6/−5 |TZ2Where = Panhandle west of the Apalachicola River |ISOCode = US-   FL |PostalAbbreviation = FL |TradAbbreviation = Fla.
+
+Q? ==>  Whe o is Joe Dirt?
+
+A. ==>  Joe Dirt is a 2001 American adventure comedy film starring David Spade, Dennis Miller, Christopher Walken, Adam Beach, Brian Thompson, Brittany Daniel, Jaime Pressly, Erik Per Sullivan, and Kid Rock.
+
+Q? ==>  Who  at  hat is a firearm?
+
+A. ==>  A firearm at a target]]  A 'firearm' is a portable gun that inflicts damage on targets by launching one or more projectiles driven by rapidly expanding high- pressure gas produced by exothermic combustion (deflagration) of propellant within an ammunition cartridge.
+
+Q? ==>  Whis    at is food?
+
+A. ==>  A food is a human right derived from the International Covenant on Economic, Social and Cultural Rights, recognizing the "right to an adequate standard of living, including adequate food", as well as the "fundamental right to be free from hunger".
+
+Q? ==>  When was yesterday?
+
+A. ==>  The yesterdays' may refer to:  *Yesterday, the day before the present day *Yesterday, an idiom meaning the past in general .
+
+Q? ==>  When is Easter?
+
+A. ==>  The Easter<ref group="nb">Traditional names for the feast in English are "Easter Day", as in the [[Book of Common Prayer]], "Easter Sunday", used by James Ussher ([https://books.
+
+Q? ==>  When is Passover?
+
+A. ==>  The Passover sacrifice.
+
+Q? ==>  exit
+]0;krichmond53@RoadDog: ~/Documents/416 CMSC - Natural Language Processing/PERL Projects[0;35mkrichmond53[0;32m[0;34m PERL Projects $ [0mexit
+exit
+
+Script done on Sat 14 Apr 2018 04:58:46 PM EDT

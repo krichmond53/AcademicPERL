@@ -1,0 +1,112 @@
+#!/usr/bin/perl -w
+use strict;
+use warnings;
+use Text::Unidecode;
+
+#---------------------------------------------
+# Kevin Richmond
+# CMSC 416 - Natural Language Processing
+# Programming Project 3 - POS Tagger
+##---------------------------------------------------------------------------
+
+my $program = $0;
+my $trainFile = $ARGV[0];
+my $testFile = $ARGV[1];
+
+print "Input was: $program $trainFile $testFile\n";
+
+my %taggedWords = getTrainingData($trainFile);
+
+sub getTrainingData {
+  my ($file) = @_;
+  my %w;
+
+  if (open(my $text, '<:encoding(UTF-8)', $file))
+  {
+    while (my $str = <$text>) 
+    
+    {
+      chomp $str;
+#      print "\nString: $str\n";
+# SPLIT THE STRING BASED ON WHITE SPACE
+      my @s = split (/ /, $str);
+      my $len = @s;
+      my $count;
+      
+      for (my $i=0; $i<$len; $i++)
+      {
+# SEPARATE OUT THE WORDS/TAGS FROM EVERYTHING ELSE
+        if (($s[$i] =~/\b\w+\p{P}?\/[A-Z]+\b/g)  || ($s[$i] =~/([^\s]+)\/\1/)) 
+        {
+          my @t = split (/\//, $&);
+          my $word = $t[0];
+          my $tag = $t[1];
+
+#          print "Word: $word\tTag: $tag\n";
+
+# ADD ALL WORDS AND TAGS TO HASH
+          if (exists $w{$word})
+          {
+            my @a = split (/ /, $w{$word});
+            $tag = $a[1];
+            $count = $a[0];
+
+#            print "Word: $word\tTag is: $tag\tCount++ is: $count\n";
+            $count++;
+            $tag = $count . " " . $tag;
+            $w{$word} = $tag;
+#            print "Word: $word\tTag is: $tag\tCount++ is: $count\n";
+          } 
+          else
+          {
+#            $tag .= " 1";
+            $tag = "1 " . $tag;
+            $w{$word} = $tag;
+#            print "(DOES NOT EXIST) Word: $word\tTag is: $w{$word}\n";
+          }
+        }
+      }
+    }
+  }
+
+  for my $t (keys %w)
+  {
+    print "Word: $t\tTag: $w{$t}\n";
+  }
+  
+
+  return %w;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
